@@ -40,15 +40,15 @@ body {
   width: 320px;
   padding: 40px 30px;
   border-radius: 20px;
-  background: linear-gradient(145deg, #4f46e5, #4338ca);
-  box-shadow: 0 10px 30px rgba(79, 70, 229, 0.4);
+  background: linear-gradient(145deg, #0d9488, #0f766e);
+  box-shadow: 0 10px 30px rgba(13, 148, 136, 0.4);
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .hero-chat-box:hover {
   transform: translateY(-6px);
-  box-shadow: 0 15px 40px rgba(79, 70, 229, 0.55);
+  box-shadow: 0 15px 40px rgba(13, 148, 136, 0.55);
 }
 
 .hero-chat-icon {
@@ -62,7 +62,7 @@ body {
 }
 
 .hero-chat-box p {
-  color: #e0e7ff;
+  color: #ccfbf1;
   font-size: 0.9rem;
   margin: 0;
 }
@@ -89,7 +89,7 @@ body {
 }
 
 .chat-header {
-  background: #4f46e5;
+  background: #0d9488;
   padding: 14px 16px;
   display: flex;
   justify-content: space-between;
@@ -125,7 +125,7 @@ body {
 
 .chat-bubble.user {
   align-self: flex-end;
-  background: #4f46e5;
+  background: #0d9488;
   color: white;
   border-bottom-right-radius: 4px;
 }
@@ -161,7 +161,7 @@ body {
 }
 
 .chat-input-row input[type="text"]:focus {
-  outline: 2px solid #4f46e5;
+  outline: 2px solid #0d9488;
 }
 
 .mic-btn,
@@ -184,7 +184,7 @@ body {
 }
 
 .send-btn {
-  background: #4f46e5;
+  background: #0d9488;
   color: white;
   font-weight: 600;
 }
@@ -254,7 +254,7 @@ body {
 }
 
 .new-chat-btn {
-  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  background: linear-gradient(135deg, #14b8a6, #0d9488);
   color: white;
   border: none;
   padding: 8px 12px;
@@ -315,7 +315,7 @@ body {
 
 .session-item.active {
   background: #1e293b;
-  border-left-color: #4f46e5;
+  border-left-color: #0d9488;
 }
 
 .session-icon {
@@ -391,5 +391,5 @@ body {
 }
 
 .sidebar-toggle-btn.active {
-  color: #818cf8;
+  color: #2dd4bf;
 }
